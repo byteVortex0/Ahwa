@@ -1,9 +1,11 @@
-☕ Ahwa Manager
+# ☕ Ahwa Manager
 
 Ahwa Manager is a simple Flutter app for managing coffee shop orders.
 The main goal of this project is not the design but rather to practice OOP principles and apply SOLID clean architecture in a real project.
 
-🎯 Project Goals
+---
+
+## 🎯 Project Goals
 
 Practice applying OOP in Flutter (classes, inheritance, abstraction, encapsulation, composition).
 
@@ -11,7 +13,9 @@ Implement SOLID clean architecture to improve code readability, testability, and
 
 Build a small but structured app that demonstrates how principles can be applied to a real project.
 
-🧩 OOP Principles in Action
+---
+
+## 🧩 OOP Principles in Action
 
 Encapsulation → Models like Drink, Order, and User manage their own state and behaviors.
 
@@ -19,7 +23,9 @@ Abstraction → Applied in OrdersRepo and ReportRepo.
 
 Polymorphism → Different repo implementations can be used interchangeably.
 
-🔑 SOLID Principles Applied
+---
+
+## 🔑 SOLID Principles Applied
 
 S (Single Responsibility Principle) → Each class, like OrdersRepoImpl, has one clear responsibility.
 
@@ -31,7 +37,9 @@ I (Interface Segregation Principle) → Repos were split into smaller contracts 
 
 D (Dependency Inversion Principle) → Cubits depend on abstractions (Repo) instead of concrete implementations.
 
-📌 The app allows you to:
+---
+
+## 📌 The app allows you to:
 
 Add new orders with customer name, drink type, and special instructions.
 
@@ -41,7 +49,9 @@ Mark orders as completed.
 
 Generate simple reports such as top-selling drinks.
 
-🚀 Features
+---
+
+## 🚀 Features
 
 ✅ Local database using sqflite
 
@@ -53,12 +63,14 @@ Generate simple reports such as top-selling drinks.
 
 ✅ Simple chart for top 3 best-selling drinks
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
 data/   → models, repositories  
 logic/  → cubits (state management)  
 ui/     → pages, widgets  
 core/   → shared services, DB helper, di  
 
-
+---
 
 #FlutterMentors3
